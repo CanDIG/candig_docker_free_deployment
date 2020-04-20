@@ -13,5 +13,5 @@ config = configparser.ConfigParser()
 config.read('../../config.ini')
 
 services = read_json()
-services["services"]["htsget"] = config["htsget"]["path"]
+services["services"]["htsget"] = config["htsget"]["htsget_path"]
 write_json(services)
