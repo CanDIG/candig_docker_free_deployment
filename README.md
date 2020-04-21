@@ -8,16 +8,21 @@ Bellow a description of each section/field in `config.ini`
 
 ##### htsget Section
 `Address`: Address of htsget app
+
 `Port`: Port where to run `htsget_app`
 
 ##### DRS Section
 `Address`: Address of Chord DRS service
+
 `Port`: Port where to run Chord DRS service
+
 `Endpoint`: DRS endpoint (such as /ga4gh/dos/v1/)
 
 ##### Minio Section
 `EndPoint`: Minio Endpoint
+
 `AccessKey`: Minio Access Key
+
 `SecretKey`: Minio Secret Key
 
 
