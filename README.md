@@ -6,19 +6,19 @@ Before you run the installation script, you must change the configuration info o
 
 Bellow a description of each section/field in `config.ini`
 
-##### htsget Section
+#### htsget Section
 `Address`: Address of htsget app
 
 `Port`: Port where to run `htsget_app`
 
-##### DRS Section
+#### DRS Section
 `Address`: Address of Chord DRS service
 
 `Port`: Port where to run Chord DRS service
 
 `Endpoint`: DRS endpoint (such as /ga4gh/dos/v1/)
 
-##### Minio Section
+#### Minio Section
 `EndPoint`: Minio Endpoint
 
 `AccessKey`: Minio Access Key
