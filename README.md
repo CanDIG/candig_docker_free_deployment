@@ -32,3 +32,4 @@ Once all the information on `config.ini` file were provided, you may browse the 
 ```
 sh install.sh
 ```
+
