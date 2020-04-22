@@ -25,6 +25,7 @@ Bellow a description of each section/field in `config.ini`
 
 `SecretKey`: Minio Secret Key
 
+`Directory`: Where to store Minio Buckets 
 
 ## Running all the services
 
