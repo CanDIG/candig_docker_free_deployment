@@ -13,5 +13,8 @@ config = configparser.ConfigParser()
 config.read('../../config.ini')
 
 services = read_json()
-services["services"]["htsget"] = config["htsget"]["htsget_path"]
+hts_address = config["htsget"]["Address"]
+htsget_port = config["htsget"]["Port"]
+
+services["services"]["htsget"] = "{}:{}".format(hts_address, htsget_port)
 write_json(services)
