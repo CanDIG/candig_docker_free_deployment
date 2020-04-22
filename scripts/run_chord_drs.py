@@ -16,4 +16,5 @@ os.environ["MINIO_USERNAME"] = MINIO_USERNAME
 os.environ["MINIO_PASSWORD"] = MINIO_PASSWORD
 os.environ["MINIO_BUCKET"] = MINIO_BUCKET
 
+subprocess.run(["flask", "db" "upgrade"])
 subprocess.run(["flask", "run", "-p", drs_port])
